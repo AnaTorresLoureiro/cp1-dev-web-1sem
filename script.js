@@ -12,3 +12,29 @@ function dataTypes(){
     let aluno="Fiaper"
     console.log(aluno)
 }
+
+//2
+function operadores(){
+    let valor = 10
+
+    //== (igual)
+    if (valor==10){
+        document.write("O valor é igual\n")
+    }
+    document.write("<br>")
+
+    //>= (menor igual) ou <= (maior igual)
+
+    if (valor<=15){
+        document.write("O valor 15 é maior que 10")
+    }else{
+        document.write("\n O valor é menor ou igual a 10")
+    }
+    document.write("<br>")
+
+    //!= (diferente)
+
+    if (valor!=8){
+        document.write(" É diferente de 10 ")
+    }
+}
