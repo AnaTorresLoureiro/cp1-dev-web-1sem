@@ -66,3 +66,21 @@ function faixaEtaria(idadeInput){
         console.log("Adulto");
     }
 }
+
+//5
+async function usuario(){
+    let id = prompt("digite o id de usuário")
+    let senha = prompt("digite a senha")
+
+    const  usuariocadastrado = "admin"
+    const  senhacadastrada = "1234"
+
+    if (usuariocadastrado == id){
+        console.log("login efetuado com sucesso!")
+        document.write("login efetuado com sucesso!")
+    }
+    else{
+        console.log ("Usuario não cadastrado")
+        document.write("Usuario não cadastrado")
+    }
+}
