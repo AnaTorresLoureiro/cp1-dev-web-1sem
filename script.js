@@ -52,3 +52,17 @@ function imc(pesoInput){
     }
 
 }
+//4
+function faixaEtaria(idadeInput){
+    let idade = parseInt(idadeInput);
+
+    if (idade <= 12) {
+        console.log("Criança");
+    } else if (idade > 60) {
+        console.log("Idoso");
+    } else if (13 <= idade && idade <= 18) {
+        console.log("Adolescente");
+    } else {
+        console.log("Adulto");
+    }
+}
