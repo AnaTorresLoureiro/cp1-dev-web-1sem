@@ -84,3 +84,18 @@ async function usuario(){
         document.write("Usuario não cadastrado")
     }
 }
+
+//6
+async function media(){
+    let notas = [];
+    for (let i=0; i<7; i++) {
+        notas.push(parseInt(prompt('digite a suas notas')))
+    }
+
+    let soma = 0
+    for  (let i = 0; i < notas.length; i++) {
+        soma+= notas[i]
+    }
+    console.log(`A sua media é ${soma/notas.length}`);
+    document.write(`A sua media é ${soma/notas.length}`);
+}
