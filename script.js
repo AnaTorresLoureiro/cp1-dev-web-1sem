@@ -99,3 +99,15 @@ async function media(){
     console.log(`A sua media é ${soma/notas.length}`);
     document.write(`A sua media é ${soma/notas.length}`);
 }
+
+// 7
+function alterPage(){
+    let nome = "Nome do aluno";
+    let idade = 18;
+    let curso = "Engenharia";
+    let ano = 2024;
+    document.write(nome + "<br>");
+    document.write(idade + "<br>");
+    document.write(curso + "<br>");
+    document.write(ano + "<br>");
+}
