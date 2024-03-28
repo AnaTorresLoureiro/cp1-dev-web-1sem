@@ -120,3 +120,8 @@ function tecnologia(){
     document.write(frase.slice(27, 34) + "<br>")
     document.write(frase.slice(92, 99) + "<br>")
 }
+//9
+function parse(){
+    let num = "1.1"
+    document.write(parseFloat(num))
+}
