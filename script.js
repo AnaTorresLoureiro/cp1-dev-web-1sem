@@ -38,3 +38,17 @@ function operadores(){
         document.write(" É diferente de 10 ")
     }
 }
+
+//3
+function imc(pesoInput){
+    let peso = parseFloat(pesoInput);
+
+    if (peso < 18.5 ){
+        console.log("Abaixo do peso");
+    } else if (peso > 24.9) {
+        console.log("Acima do peso");
+    } else {
+        console.log("Peso ideal");
+    }
+
+}
