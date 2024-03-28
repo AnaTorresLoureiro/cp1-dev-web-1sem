@@ -111,3 +111,12 @@ function alterPage(){
     document.write(curso + "<br>");
     document.write(ano + "<br>");
 }
+
+//8
+function tecnologia(){
+    let frase = "Tecnologia é um produto da ciência e da engenharia que envolve um conjunto de instrumentos, métodos e técnicas que visam a resolução de problemas."
+    document.write(frase.indexOf("em") + "<br>")
+    document.write(frase.lastIndexOf("ia") + "<br>")
+    document.write(frase.slice(27, 34) + "<br>")
+    document.write(frase.slice(92, 99) + "<br>")
+}
